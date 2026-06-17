@@ -2,6 +2,8 @@
 
 ## ✅ Minhas Ideias Futuras
 
+* Manus fofopanda e ith.almeida
+
 * colocar perfil ao clicar em créditos, onde o usuário vê o perfil e já com a compra de créditos e com card de ajuda, link minhAi e link BigCorps.
 
 * centralizar botões, criar mais funções e configurar bubblewrap do repositório artefinal para publicar na Playstore 
