@@ -12,7 +12,7 @@ const features = [
     title: 'Conversão de Arquivos',
     description: 'Converta entre qualquer formato de arquivo. PDF, PNG, JPG, SVG, DXF e muito mais.',
     icon: FileText,
-    color: 'from-cyan-500 to-cyan-600',
+    color: 'from-cyan-500 to-magenta-600',
   },
   {
     id: 'svg',
@@ -54,7 +54,7 @@ const features = [
     title: 'E muito mais',
     description: 'Novos recursos adicionados regularmente. Tudo que você precisa em um só lugar.',
     icon: Plus,
-    color: 'from-cyan-500 to-yellow-600',
+    color: 'from-cyan-500 to-magenta-600',
   },
 ];
 

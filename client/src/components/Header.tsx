@@ -10,12 +10,7 @@ import { Button } from '@/components/ui/button';
 export default function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
 
-  const navLinks = [
-    { label: 'Recursos', href: '#features' },
-    { label: 'Como Funciona', href: '#how-it-works' },
-    { label: 'Preços', href: '#pricing' },
-    { label: 'Contato', href: '#contact' },
-  ];
+  const navLinks = [];
 
   return (
     <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200">
@@ -30,7 +25,7 @@ export default function Header() {
             />
           </div>
           <span className="font-display font-bold text-lg text-gray-900 group-hover:text-cyan-600 transition-colors">
-            ArteFinal
+            ArteFinal.app
           </span>
         </a>
 
@@ -49,13 +44,15 @@ export default function Header() {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <Button
-            variant="outline"
-            className="border-gray-300 text-gray-700 hover:bg-gray-50"
-          >
-            Entrar
-          </Button>
-          <a href="https://www.artefinal.app" target="_blank" rel="noopener noreferrer">
+          <a href="https://artefinal.app/arte/login">
+            <Button
+              variant="outline"
+              className="border-gray-300 text-gray-700 hover:bg-gray-50"
+            >
+              Entrar
+            </Button>
+          </a>
+          <a href="https://artefinal.app">
             <Button
               className="bg-gradient-to-r from-cyan-500 to-magenta-600 hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold"
             >
@@ -89,13 +86,15 @@ export default function Header() {
               </a>
             ))}
             <div className="flex flex-col gap-2 pt-4 border-t border-gray-200">
-              <Button
-                variant="outline"
-                className="border-gray-300 text-gray-700 hover:bg-gray-50 w-full"
-              >
-                Entrar
-              </Button>
-              <a href="https://www.artefinal.app" target="_blank" rel="noopener noreferrer" className="w-full">
+              <a href="https://artefinal.app/arte/login" className="w-full">
+                <Button
+                  variant="outline"
+                  className="border-gray-300 text-gray-700 hover:bg-gray-50 w-full"
+                >
+                  Entrar
+                </Button>
+              </a>
+              <a href="https://artefinal.app" className="w-full">
                 <Button
                   className="bg-gradient-to-r from-cyan-500 to-magenta-600 hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold w-full"
                 >

@@ -39,7 +39,7 @@ export default function Hero() {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a href="https://www.artefinal.app" target="_blank" rel="noopener noreferrer">
+              <a href="https://artefinal.app">
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-cyan-500 to-magenta-600 hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold group w-full sm:w-auto"
