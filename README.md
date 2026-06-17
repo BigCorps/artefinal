@@ -4,7 +4,7 @@
 
 * Claude ith.almeida e Manus fofopanda e ith.almeida
 
-* centralizar botões, criar mais funções e configurar bubblewrap do repositório artefinal para publicar na Playstore 
+* centralizar botões, não mostrar créditos nos botões sem login, criar mais funções, algumas grátis e configurar bubblewrap do repositório artefinal para publicar na Playstore 
 
 ## 🎨 Design Philosophy
 
