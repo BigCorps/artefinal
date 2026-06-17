@@ -4,7 +4,7 @@
 
 * Claude ith.almeida e Manus qpreco
 
-*Quando a função principal estiver com o ajuste de sangria, e o de corte estiver pronto, Criar 2 cards com todo o fluxo de exemplo e colocar na landing
+* Quando a função principal estiver com o ajuste de sangria, e o de corte estiver pronto, Criar 2 cards com todo o fluxo de exemplo e colocar na landing
 
 * centralizar botões, não mostrar créditos nos botões sem login, criar mais funções, algumas grátis e configurar bubblewrap do repositório artefinal para publicar na Playstore 
 
