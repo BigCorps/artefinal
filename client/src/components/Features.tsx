@@ -14,19 +14,13 @@ const features = [
     icon: FileText,
     color: 'from-cyan-500 to-magenta-600',
   },
-  {
-    id: 'svg',
-    title: 'Logo em SVG',
-    description: 'Transforme logos rasterizados em vetores escaláveis sem perda de qualidade.',
-    icon: Zap,
-    color: 'from-magenta-500 to-magenta-600',
-  },
+
   {
     id: '3d',
     title: 'Imagem em 3D',
     description: 'Converta imagens em modelos 3D (STL e 3MF) prontos para impressão.',
     icon: Box,
-    color: 'from-yellow-500 to-yellow-600',
+    color: 'from-cyan-500 to-magenta-600',
   },
   {
     id: 'resize',
@@ -40,14 +34,14 @@ const features = [
     title: 'Remover Fundo',
     description: 'Remova fundos automaticamente com IA. Resultado limpo e profissional.',
     icon: Trash2,
-    color: 'from-magenta-500 to-yellow-600',
+    color: 'from-cyan-500 to-magenta-600',
   },
   {
     id: 'duplicate',
     title: 'Duplicar para Impressão',
     description: 'Crie múltiplas cópias em uma página: 3x4, polaroid, fotos de documento.',
     icon: Copy,
-    color: 'from-yellow-500 to-magenta-600',
+    color: 'from-cyan-500 to-magenta-600',
   },
   {
     id: 'more',

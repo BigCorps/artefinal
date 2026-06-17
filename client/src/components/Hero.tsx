@@ -11,8 +11,8 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-white pt-20 pb-32 md:pt-32 md:pb-48">
       {/* Background gradient decoration */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-cyan-100 to-transparent rounded-full blur-3xl opacity-40" />
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-magenta-100 to-transparent rounded-full blur-3xl opacity-30" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-cyan-100 to-magenta-100 rounded-full blur-3xl opacity-40" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-cyan-100 to-magenta-100 rounded-full blur-3xl opacity-30" />
       </div>
 
       <div className="container relative z-10">
@@ -48,13 +48,15 @@ export default function Hero() {
                   <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-gray-300 text-gray-700 hover:bg-gray-50 font-semibold"
-              >
-                Ver Demo
-              </Button>
+              <a href="https://artefinal.app/arte/login">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-gray-300 text-gray-700 hover:bg-gray-50 font-semibold w-full sm:w-auto"
+                >
+                  Entrar
+                </Button>
+              </a>
             </div>
 
             {/* Trust indicators */}

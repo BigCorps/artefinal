@@ -29,18 +29,7 @@ export default function Header() {
           </span>
         </a>
 
-        {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center gap-8">
-          {navLinks.map((link) => (
-            <a
-              key={link.label}
-              href={link.href}
-              className="text-sm font-medium text-gray-600 hover:text-cyan-600 transition-colors"
-            >
-              {link.label}
-            </a>
-          ))}
-        </nav>
+
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
