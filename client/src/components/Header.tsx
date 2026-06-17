@@ -1,0 +1,111 @@
+import { useState } from 'react';
+import { Menu, X } from 'lucide-react';
+import { Button } from '@/components/ui/button';
+
+/**
+ * Header Component
+ * Modernismo Técnico Elegante - Minimalist header with CMYK gradient accent
+ * Features: Responsive navigation, sticky positioning, brand logo
+ */
+export default function Header() {
+  const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
+
+  const navLinks = [
+    { label: 'Recursos', href: '#features' },
+    { label: 'Como Funciona', href: '#how-it-works' },
+    { label: 'Preços', href: '#pricing' },
+    { label: 'Contato', href: '#contact' },
+  ];
+
+  return (
+    <header className="sticky top-0 z-50 bg-white/95 backdrop-blur-md border-b border-gray-200">
+      <div className="container flex items-center justify-between h-16">
+        {/* Logo */}
+        <a href="/" className="flex items-center gap-2.5 group">
+          <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center bg-gradient-to-br from-cyan-400 to-magenta-500">
+            <img
+              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663048284867/MaaYaA7BwGWAx2Ce6KhZmp/artefinal-logo-e2fSxUNNvN96NSaR8emxnj.webp"
+              alt="ArteFinal"
+              className="w-full h-full object-cover"
+            />
+          </div>
+          <span className="font-display font-bold text-lg text-gray-900 group-hover:text-cyan-600 transition-colors">
+            ArteFinal
+          </span>
+        </a>
+
+        {/* Desktop Navigation */}
+        <nav className="hidden md:flex items-center gap-8">
+          {navLinks.map((link) => (
+            <a
+              key={link.label}
+              href={link.href}
+              className="text-sm font-medium text-gray-600 hover:text-cyan-600 transition-colors"
+            >
+              {link.label}
+            </a>
+          ))}
+        </nav>
+
+        {/* Desktop CTA */}
+        <div className="hidden md:flex items-center gap-3">
+          <Button
+            variant="outline"
+            className="border-gray-300 text-gray-700 hover:bg-gray-50"
+          >
+            Entrar
+          </Button>
+          <a href="https://www.artefinal.app" target="_blank" rel="noopener noreferrer">
+            <Button
+              className="bg-gradient-to-r from-cyan-500 to-magenta-600 hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold"
+            >
+              Começar Grátis
+            </Button>
+          </a>
+        </div>
+
+        {/* Mobile Menu Button */}
+        <button
+          onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
+          className="md:hidden p-2 text-gray-600 hover:bg-gray-100 rounded-lg transition-colors"
+          aria-label="Toggle menu"
+        >
+          {mobileMenuOpen ? <X size={24} /> : <Menu size={24} />}
+        </button>
+      </div>
+
+      {/* Mobile Navigation */}
+      {mobileMenuOpen && (
+        <div className="md:hidden border-t border-gray-200 bg-white">
+          <nav className="container py-4 flex flex-col gap-4">
+            {navLinks.map((link) => (
+              <a
+                key={link.label}
+                href={link.href}
+                className="text-sm font-medium text-gray-600 hover:text-cyan-600 transition-colors"
+                onClick={() => setMobileMenuOpen(false)}
+              >
+                {link.label}
+              </a>
+            ))}
+            <div className="flex flex-col gap-2 pt-4 border-t border-gray-200">
+              <Button
+                variant="outline"
+                className="border-gray-300 text-gray-700 hover:bg-gray-50 w-full"
+              >
+                Entrar
+              </Button>
+              <a href="https://www.artefinal.app" target="_blank" rel="noopener noreferrer" className="w-full">
+                <Button
+                  className="bg-gradient-to-r from-cyan-500 to-magenta-600 hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold w-full"
+                >
+                  Começar Grátis
+                </Button>
+              </a>
+            </div>
+          </nav>
+        </div>
+      )}
+    </header>
+  );
+}
