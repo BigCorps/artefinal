@@ -78,8 +78,19 @@ Bubblewrap é uma ferramenta que converte Progressive Web Apps (PWAs) em Android
 3. **Node.js** 14 ou superior
 4. **Conta Google Play Developer** ($25 de taxa única)
 
-### Passos para Publicar na Play Store
+## 🌐 Deploy no Vercel
 
+O projeto está configurado para deploy automático no Vercel.
+
+### Configurações de Build recomendadas:
+- **Framework Preset**: Vite
+- **Build Command**: `pnpm build`
+- **Output Directory**: `dist`
+- **Install Command**: `pnpm install`
+
+O arquivo `vercel.json` já inclui as regras de **rewrites** necessárias para que o roteamento SPA (Single Page Application) funcione corretamente.
+
+### Passos para Publicar na Play Store
 #### 1. Instalar Bubblewrap
 
 ```bash
