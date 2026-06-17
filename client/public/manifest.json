@@ -1,7 +1,7 @@
 {
-  "name": "ArteFinal - Sua Gráfica com IA",
+  "name": "ArteFinal.app",
   "short_name": "ArteFinal",
-  "description": "Converta arquivos, crie SVG, modele 3D, redimensione imagens e muito mais. Tudo que uma gráfica precisa para editar arquivos rapidamente.",
+  "description": "Sua arte pronta para impressão com IA.",
   "start_url": "/",
   "scope": "/",
   "display": "standalone",
