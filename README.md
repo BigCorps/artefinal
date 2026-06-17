@@ -2,7 +2,7 @@
 
 ## ✅ Minhas Ideias Futuras
 
-* Manus fofopanda e ith.almeida
+* Claude ith.almeida e Manus fofopanda e ith.almeida
 
 * centralizar botões, criar mais funções e configurar bubblewrap do repositório artefinal para publicar na Playstore 
 
