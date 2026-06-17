@@ -22,11 +22,11 @@ export default function Header() {
       <div className="container flex items-center justify-between h-16">
         {/* Logo */}
         <a href="/" className="flex items-center gap-2.5 group">
-          <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center bg-gradient-to-br from-cyan-400 to-magenta-500">
+          <div className="w-10 h-10 rounded-lg overflow-hidden flex items-center justify-center">
             <img
-              src="https://d2xsxph8kpxj0f.cloudfront.net/310519663048284867/MaaYaA7BwGWAx2Ce6KhZmp/artefinal-logo-e2fSxUNNvN96NSaR8emxnj.webp"
+              src="/arte.png"
               alt="ArteFinal"
-              className="w-full h-full object-cover"
+              className="w-full h-full object-contain"
             />
           </div>
           <span className="font-display font-bold text-lg text-gray-900 group-hover:text-cyan-600 transition-colors">

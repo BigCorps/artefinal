@@ -22,13 +22,13 @@ export default function Hero() {
             <div className="space-y-4">
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-50 rounded-full border border-cyan-200">
                 <Sparkles size={16} className="text-cyan-600" />
-                <span className="text-sm font-semibold text-cyan-700">Powered by IA</span>
+                <span className="text-sm font-semibold text-cyan-700">powered by minhAi</span>
               </div>
 
               <h1 className="text-4xl md:text-5xl font-display font-bold text-gray-900 leading-tight">
-                Sua gráfica,{' '}
+                Seu{' '}
                 <span className="bg-gradient-to-r from-cyan-600 to-magenta-600 bg-clip-text text-transparent">
-                  turbinada com IA
+                  arte-finalista com IA!
                 </span>
               </h1>
 
@@ -86,9 +86,9 @@ export default function Hero() {
               {/* Floating card effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 to-magenta-500 rounded-2xl blur-2xl opacity-20 animate-pulse" />
               <img
-                src="https://d2xsxph8kpxj0f.cloudfront.net/310519663048284867/MaaYaA7BwGWAx2Ce6KhZmp/artefinal-hero-bg-kCXnUx7xqrdwd2nMj6Fhey.webp"
+                src="/arte.png"
                 alt="ArteFinal Hero"
-                className="relative rounded-2xl shadow-2xl w-full"
+                className="relative rounded-2xl shadow-2xl w-full object-contain"
               />
             </div>
           </div>
