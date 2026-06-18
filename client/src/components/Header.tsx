@@ -33,7 +33,7 @@ export default function Header() {
 
         {/* Desktop CTA */}
         <div className="hidden md:flex items-center gap-3">
-          <a href="https://artefinal.app/arte/login">
+          <a href="https://ia.artefinal.app/arte/login">
             <Button
               variant="outline"
               className="border-gray-300 text-gray-700 hover:bg-gray-50"
@@ -41,7 +41,7 @@ export default function Header() {
               Entrar
             </Button>
           </a>
-          <a href="https://artefinal.app">
+          <a href="https://ia.artefinal.app">
             <Button
               className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold"
             >
@@ -75,7 +75,7 @@ export default function Header() {
               </a>
             ))}
             <div className="flex flex-col gap-2 pt-4 border-t border-gray-200">
-              <a href="https://artefinal.app/arte/login" className="w-full">
+              <a href="https://ia.artefinal.app/arte/login" className="w-full">
                 <Button
                   variant="outline"
                   className="border-gray-300 text-gray-700 hover:bg-gray-50 w-full"
@@ -83,7 +83,7 @@ export default function Header() {
                   Entrar
                 </Button>
               </a>
-              <a href="https://artefinal.app" className="w-full">
+              <a href="https://ia.artefinal.app" className="w-full">
                 <Button
                   className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold w-full"
                 >
