@@ -12,7 +12,7 @@ const features = [
     title: 'Conversão de Arquivos',
     description: 'Converta entre qualquer formato de arquivo. PDF, PNG, JPG, SVG, DXF e muito mais.',
     icon: FileText,
-    color: 'from-cyan-500 to-magenta-600',
+    color: 'from-cyan-600 to-magenta-700',
   },
 
   {
@@ -20,41 +20,41 @@ const features = [
     title: 'Imagem em 3D',
     description: 'Converta imagens em modelos 3D (STL e 3MF) prontos para impressão.',
     icon: Box,
-    color: 'from-cyan-500 to-magenta-600',
+    color: 'from-cyan-600 to-magenta-700',
   },
   {
     id: 'resize',
     title: 'Redimensionar Imagens',
     description: 'Ajuste dimensões mantendo qualidade. Suporte a lotes para múltiplas imagens.',
     icon: ImageIconLucide,
-    color: 'from-cyan-500 to-magenta-600',
+    color: 'from-cyan-600 to-magenta-700',
   },
   {
     id: 'background',
     title: 'Remover Fundo',
     description: 'Remova fundos automaticamente com IA. Resultado limpo e profissional.',
     icon: Trash2,
-    color: 'from-cyan-500 to-magenta-600',
+    color: 'from-cyan-600 to-magenta-700',
   },
   {
     id: 'duplicate',
     title: 'Duplicar para Impressão',
     description: 'Crie múltiplas cópias em uma página: 3x4, polaroid, fotos de documento.',
     icon: Copy,
-    color: 'from-cyan-500 to-magenta-600',
+    color: 'from-cyan-600 to-magenta-700',
   },
   {
     id: 'more',
     title: 'E muito mais',
     description: 'Novos recursos adicionados regularmente. Tudo que você precisa em um só lugar.',
     icon: Plus,
-    color: 'from-cyan-500 to-magenta-600',
+    color: 'from-cyan-600 to-magenta-700',
   },
 ];
 
 export default function Features() {
   return (
-    <section id="features" className="py-24 md:py-32 bg-gradient-to-b from-gray-50 to-white">
+    <section id="features" className="py-24 md:py-32 bg-white">
       <div className="container">
         {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
@@ -95,7 +95,7 @@ export default function Features() {
 
                 {/* Hover indicator */}
                 <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <div className="w-2 h-2 rounded-full bg-gradient-to-r from-cyan-500 to-magenta-600" />
+                  <div className="w-2 h-2 rounded-full bg-gradient-to-r from-cyan-600 to-magenta-700" />
                 </div>
               </div>
             );

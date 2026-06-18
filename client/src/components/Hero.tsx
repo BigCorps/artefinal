@@ -11,8 +11,8 @@ export default function Hero() {
     <section className="relative overflow-hidden bg-white pt-20 pb-32 md:pt-32 md:pb-48">
       {/* Background gradient decoration */}
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-cyan-100 to-magenta-100 rounded-full blur-3xl opacity-40" />
-        <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-cyan-100 to-magenta-100 rounded-full blur-3xl opacity-30" />
+        <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-cyan-200 to-magenta-200 rounded-full blur-3xl opacity-40" />
+        <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-cyan-200 to-magenta-200 rounded-full blur-3xl opacity-30" />
       </div>
 
       <div className="container relative z-10">
@@ -27,7 +27,7 @@ export default function Hero() {
 
               <h1 className="text-4xl md:text-5xl font-display font-bold text-gray-900 leading-tight">
                 Seu{' '}
-                <span className="bg-gradient-to-r from-cyan-600 to-magenta-600 bg-clip-text text-transparent">
+                <span className="bg-gradient-to-r from-cyan-600 to-magenta-700 bg-clip-text text-transparent">
                   arte-finalista com IA!
                 </span>
               </h1>
@@ -42,7 +42,7 @@ export default function Hero() {
               <a href="https://artefinal.app">
                 <Button
                   size="lg"
-                  className="bg-gradient-to-r from-cyan-500 to-magenta-600 hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold group w-full sm:w-auto"
+                  className="bg-gradient-to-r from-cyan-600 to-magenta-700 hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold group w-full sm:w-auto"
                 >
                   Começar Grátis
                   <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
@@ -86,7 +86,7 @@ export default function Hero() {
           <div className="hidden md:flex items-center justify-center">
             <div className="relative w-full max-w-md">
               {/* Floating card effect */}
-              <div className="absolute inset-0 bg-gradient-to-br from-cyan-400 to-magenta-500 rounded-2xl blur-2xl opacity-20 animate-pulse" />
+              <div className="absolute inset-0 bg-gradient-to-br from-cyan-600 to-magenta-700 rounded-2xl blur-2xl opacity-20 animate-pulse" />
               <img
                 src="/arte.png"
                 alt="ArteFinal Hero"

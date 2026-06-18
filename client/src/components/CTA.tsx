@@ -20,7 +20,7 @@ export default function CTA() {
   return (
     <section className="relative py-24 md:py-32 overflow-hidden">
       {/* Background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-magenta-600 opacity-95" />
+      <div className="absolute inset-0 bg-gradient-to-r from-cyan-600 to-magenta-700 opacity-95" />
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-white/10 rounded-full blur-3xl" />
         <div className="absolute bottom-0 right-1/4 w-80 h-80 bg-white/5 rounded-full blur-3xl" />
