@@ -52,7 +52,7 @@ export default function CTA() {
             </div>
 
             {/* CTA Button */}
-            <a href="https://artefinal.app">
+            <a href="https://ia.artefinal.app">
               <Button
                 size="lg"
                 className="bg-white text-cyan-600 hover:bg-gray-100 font-semibold group w-full sm:w-auto"
