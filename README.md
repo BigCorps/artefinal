@@ -168,8 +168,8 @@ O arquivo `client/public/manifest.json` já está configurado com:
 Se precisar de variáveis de ambiente, crie um arquivo `.env`:
 
 ```env
-VITE_APP_URL=https://home.artefinal.app
-VITE_API_URL=https://www.artefinal.app
+VITE_APP_URL=https://www.artefinal.app
+VITE_API_URL=https://ia.artefinal.app
 ```
 
 ### Testes Antes de Publicar
@@ -189,8 +189,8 @@ adb install app-release.apk
 
 ## 🔗 URLs
 
-- **Landing Page**: https://home.artefinal.app
-- **App Web**: https://www.artefinal.app
+- **Landing Page**: https://www.artefinal.app
+- **App Web**: https://ia.artefinal.app
 - **Play Store**: [Será preenchido após publicação]
 
 ## 📦 Dependências Principais
