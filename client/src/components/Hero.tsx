@@ -39,7 +39,7 @@ export default function Hero() {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a href="https://artefinal.app">
+              <a href="https://ia.artefinal.app">
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] hover:opacity-90 text-white font-semibold group w-full sm:w-auto"
@@ -48,7 +48,7 @@ export default function Hero() {
                   <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
-              <a href="https://artefinal.app/arte/login">
+              <a href="https://ia.artefinal.app/arte/login">
                 <Button
                   size="lg"
                   variant="outline"
