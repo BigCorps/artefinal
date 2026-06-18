@@ -1,11 +1,14 @@
 {
-  "version": 2,
-  "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [
-    {
-      "source": "/(.*)",
-      "destination": "/index.html"
-    }
-  ]
-}
+   "version": 2,
+   "cleanUrls": true,
+   "trailingSlash": false,
+  "redirects": [
+    { "source": "/arte/:path*", "destination": "https://ia.artefinal.app/arte/:path*", "permanent": false }
+  ],
+   "rewrites": [
+     {
+       "source": "/(.*)",
+       "destination": "/index.html"
+     }
+   ]
+ }
