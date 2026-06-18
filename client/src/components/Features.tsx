@@ -12,7 +12,7 @@ const features = [
     title: 'Conversão de Arquivos',
     description: 'Converta entre qualquer formato de arquivo. PDF, PNG, JPG, SVG, DXF e muito mais.',
     icon: FileText,
-    color: 'from-cyan-600 to-magenta-700',
+    color: 'from-[#00AEEF] to-[#EC008C]',
   },
 
   {
@@ -20,35 +20,35 @@ const features = [
     title: 'Imagem em 3D',
     description: 'Converta imagens em modelos 3D (STL e 3MF) prontos para impressão.',
     icon: Box,
-    color: 'from-cyan-600 to-magenta-700',
+    color: 'from-[#00AEEF] to-[#EC008C]',
   },
   {
     id: 'resize',
     title: 'Redimensionar Imagens',
     description: 'Ajuste dimensões mantendo qualidade. Suporte a lotes para múltiplas imagens.',
     icon: ImageIconLucide,
-    color: 'from-cyan-600 to-magenta-700',
+    color: 'from-[#00AEEF] to-[#EC008C]',
   },
   {
     id: 'background',
     title: 'Remover Fundo',
     description: 'Remova fundos automaticamente com IA. Resultado limpo e profissional.',
     icon: Trash2,
-    color: 'from-cyan-600 to-magenta-700',
+    color: 'from-[#00AEEF] to-[#EC008C]',
   },
   {
     id: 'duplicate',
     title: 'Duplicar para Impressão',
     description: 'Crie múltiplas cópias em uma página: 3x4, polaroid, fotos de documento.',
     icon: Copy,
-    color: 'from-cyan-600 to-magenta-700',
+    color: 'from-[#00AEEF] to-[#EC008C]',
   },
   {
     id: 'more',
     title: 'E muito mais',
     description: 'Novos recursos adicionados regularmente. Tudo que você precisa em um só lugar.',
     icon: Plus,
-    color: 'from-cyan-600 to-magenta-700',
+    color: 'from-[#00AEEF] to-[#EC008C]',
   },
 ];
 
@@ -95,7 +95,7 @@ export default function Features() {
 
                 {/* Hover indicator */}
                 <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
-                  <div className="w-2 h-2 rounded-full bg-gradient-to-r from-cyan-600 to-magenta-700" />
+                  <div className="w-2 h-2 rounded-full bg-gradient-to-r from-[#00AEEF] to-[#EC008C]" />
                 </div>
               </div>
             );

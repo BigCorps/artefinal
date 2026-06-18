@@ -43,7 +43,7 @@ export default function Header() {
           </a>
           <a href="https://artefinal.app">
             <Button
-              className="bg-gradient-to-r from-cyan-600 to-magenta-700 hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold"
+              className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold"
             >
               Começar Grátis
             </Button>
@@ -85,7 +85,7 @@ export default function Header() {
               </a>
               <a href="https://artefinal.app" className="w-full">
                 <Button
-                  className="bg-gradient-to-r from-cyan-600 to-magenta-700 hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold w-full"
+                  className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] hover:from-cyan-600 hover:to-magenta-700 text-white font-semibold w-full"
                 >
                   Começar Grátis
                 </Button>
