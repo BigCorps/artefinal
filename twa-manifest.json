@@ -1,0 +1,55 @@
+{
+  "packageId": "com.artefinal.app",
+  "host": "www.artefinal.app",
+  "name": "ArteFinal.app",
+  "launcherName": "ArteFinal",
+  "display": "standalone",
+  "themeColor": "#00AEEF",
+  "themeColorDark": "#000000",
+  "navigationColor": "#000000",
+  "navigationColorDark": "#000000",
+  "navigationDividerColor": "#000000",
+  "navigationDividerColorDark": "#000000",
+  "backgroundColor": "#FFFFFF",
+  "enableNotifications": true,
+  "startUrl": "/",
+  "iconUrl": "https://www.artefinal.app/arte.png",
+  "maskableIconUrl": "https://www.artefinal.app/arte512.png",
+  "monochromeIconUrl": "https://www.artefinal.app/logo-gray.png",
+  "splashScreenFadeOutDuration": 300,
+  "signingKey": {
+    "path": "/workspaces/artefinal/android.keystore",
+    "alias": "android"
+  },
+  "appVersionName": "1",
+  "appVersionCode": 1,
+  "shortcuts": [
+    {
+      "name": "Começar Grátis",
+      "shortName": "Começar",
+      "url": "https://www.artefinal.app/?action=start",
+      "chosenIconUrl": "https://www.artefinal.app/android-chrome-192x192.png"
+    }
+  ],
+  "generatorApp": "bubblewrap-cli",
+  "webManifestUrl": "https://www.artefinal.app/manifest.json",
+  "fallbackType": "customtabs",
+  "features": {},
+  "alphaDependencies": {
+    "enabled": false
+  },
+  "enableSiteSettingsShortcut": true,
+  "isChromeOSOnly": false,
+  "isMetaQuest": false,
+  "fullScopeUrl": "https://www.artefinal.app/",
+  "minSdkVersion": 21,
+  "orientation": "portrait",
+  "fingerprints": [],
+  "additionalTrustedOrigins": [],
+  "retainedBundles": [],
+  "protocolHandlers": [],
+  "fileHandlers": [],
+  "launchHandlerClientMode": "",
+  "displayOverride": [],
+  "appVersion": "1"
+}
