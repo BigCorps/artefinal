@@ -14,15 +14,15 @@
   "enableNotifications": true,
   "startUrl": "/",
   "iconUrl": "https://www.artefinal.app/arte.png",
-  "maskableIconUrl": "https://www.artefinal.app/arte512.png",
+  "maskableIconUrl": "https://www.artefinal.app/logo512.png",
   "monochromeIconUrl": "https://www.artefinal.app/logo-gray.png",
   "splashScreenFadeOutDuration": 300,
   "signingKey": {
     "path": "/workspaces/artefinal/android.keystore",
     "alias": "android"
   },
-  "appVersionName": "1",
-  "appVersionCode": 1,
+  "appVersionName": "2",
+  "appVersionCode": 2,
   "shortcuts": [
     {
       "name": "Começar Grátis",
@@ -43,13 +43,15 @@
   "isMetaQuest": false,
   "fullScopeUrl": "https://www.artefinal.app/",
   "minSdkVersion": 21,
-  "orientation": "portrait",
+  "orientation": "portrait-primary",
   "fingerprints": [],
-  "additionalTrustedOrigins": [],
+  "additionalTrustedOrigins": [
+    "https://ia.artefinal.app"
+  ],
   "retainedBundles": [],
   "protocolHandlers": [],
   "fileHandlers": [],
   "launchHandlerClientMode": "",
   "displayOverride": [],
-  "appVersion": "1"
+  "appVersion": "2"
 }

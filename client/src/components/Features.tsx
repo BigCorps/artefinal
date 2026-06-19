@@ -1,10 +1,4 @@
-import { FileText, Zap, Box, ImageIcon as ImageIconLucide, Trash2, Copy, Plus } from 'lucide-react';
-
-/**
- * Features Section
- * Modernismo Técnico Elegante - Grid layout with feature cards
- * Features: 7 key capabilities with icons and descriptions
- */
+import { FileText, Box, ImageIcon as ImageIconLucide, Trash2, Copy, Plus } from 'lucide-react';
 
 const features = [
   {
@@ -14,7 +8,6 @@ const features = [
     icon: FileText,
     color: 'from-[#00AEEF] to-[#EC008C]',
   },
-
   {
     id: '3d',
     title: 'Imagem em 3D',
@@ -56,7 +49,6 @@ export default function Features() {
   return (
     <section id="features" className="py-24 md:py-32 bg-white">
       <div className="container">
-        {/* Section Header */}
         <div className="text-center mb-16 space-y-4">
           <h2 className="text-3xl md:text-4xl font-display font-bold text-gray-900">
             Tudo que você precisa para editar arquivos
@@ -66,24 +58,18 @@ export default function Features() {
           </p>
         </div>
 
-        {/* Features Grid */}
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {features.map((feature) => {
             const Icon = feature.icon;
             return (
               <div
                 key={feature.id}
-                className="group relative p-6 rounded-xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-lg transition-all duration-300"
+                className="group relative p-6 rounded-xl border border-gray-200 bg-white hover:border-gray-300 hover:shadow-lg transition-all duration-300 flex flex-col items-center md:items-start text-center md:text-left"
               >
-                {/* Gradient background on hover */}
                 <div className={`absolute inset-0 rounded-xl opacity-0 group-hover:opacity-5 bg-gradient-to-br ${feature.color} transition-opacity`} />
-
-                {/* Icon */}
                 <div className={`relative mb-4 w-12 h-12 rounded-lg bg-gradient-to-br ${feature.color} flex items-center justify-center text-white`}>
                   <Icon size={24} />
                 </div>
-
-                {/* Content */}
                 <div className="relative space-y-2">
                   <h3 className="font-display font-bold text-gray-900 text-lg">
                     {feature.title}
@@ -92,8 +78,6 @@ export default function Features() {
                     {feature.description}
                   </p>
                 </div>
-
-                {/* Hover indicator */}
                 <div className="absolute top-4 right-4 opacity-0 group-hover:opacity-100 transition-opacity">
                   <div className="w-2 h-2 rounded-full bg-gradient-to-r from-[#00AEEF] to-[#EC008C]" />
                 </div>

@@ -1,11 +1,6 @@
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-/**
- * Hero Section
- * Modernismo Técnico Elegante - Asymmetric layout with CMYK gradient
- * Features: Bold headline, CTA buttons, visual background
- */
 export default function Hero() {
   return (
     <section className="relative overflow-hidden bg-white pt-20 pb-32 md:pt-32 md:pb-48">
@@ -18,8 +13,8 @@ export default function Hero() {
       <div className="container relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
           {/* Left: Content */}
-          <div className="space-y-8">
-            <div className="space-y-4">
+          <div className="space-y-8 flex flex-col items-center md:items-start text-center md:text-left">
+            <div className="space-y-4 flex flex-col items-center md:items-start">
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-50 rounded-full border border-cyan-200">
                 <Sparkles size={16} className="text-cyan-600" />
                 <span className="text-sm font-semibold text-cyan-700">powered by minhAi</span>
@@ -39,7 +34,7 @@ export default function Hero() {
 
             {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a href="https://ia.artefinal.app">
+              <a href="https://artefinal.app">
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] hover:opacity-90 text-white font-semibold group w-full sm:w-auto"
@@ -48,7 +43,7 @@ export default function Hero() {
                   <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
-              <a href="https://ia.artefinal.app/arte/login">
+              <a href="https://artefinal.app/arte/login">
                 <Button
                   size="lg"
                   variant="outline"
@@ -60,7 +55,7 @@ export default function Hero() {
             </div>
 
             {/* Trust indicators */}
-            <div className="flex flex-col gap-3 pt-4 text-sm text-gray-600">
+            <div className="flex flex-col items-center md:items-start gap-3 pt-4 text-sm text-gray-600">
               <div className="flex items-center gap-2">
                 <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
                   <span className="text-green-700 font-bold">✓</span>
@@ -85,7 +80,6 @@ export default function Hero() {
           {/* Right: Visual */}
           <div className="hidden md:flex items-center justify-center">
             <div className="relative w-full max-w-md">
-              {/* Floating card effect */}
               <div className="absolute inset-0 bg-gradient-to-br from-[#00AEEF] to-[#EC008C] rounded-2xl blur-2xl opacity-20 animate-pulse" />
               <img
                 src="/arte.png"
@@ -97,5 +91,5 @@ export default function Hero() {
         </div>
       </div>
     </section>
-  );
+   );
 }

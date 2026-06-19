@@ -1,12 +1,6 @@
 import { ArrowRight, Check } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
-/**
- * CTA Section
- * Modernismo Técnico Elegante - Prominent call-to-action with benefits
- * Features: Gradient background, benefit list, primary CTA
- */
-
 export default function CTA() {
   const benefits = [
     'Conversão instantânea de arquivos',
@@ -19,7 +13,6 @@ export default function CTA() {
 
   return (
     <section className="relative py-24 md:py-32 overflow-hidden">
-      {/* Background gradient */}
       <div className="absolute inset-0 bg-gradient-to-r from-[#00AEEF] to-[#EC008C] opacity-95" />
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 left-1/4 w-96 h-96 bg-white/10 rounded-full blur-3xl" />
@@ -28,9 +21,8 @@ export default function CTA() {
 
       <div className="container relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          {/* Left: Content */}
-          <div className="space-y-8">
-            <div className="space-y-4">
+          <div className="space-y-8 flex flex-col items-center md:items-start text-center md:text-left">
+            <div className="space-y-4 flex flex-col items-center md:items-start">
               <h2 className="text-3xl md:text-4xl font-display font-bold text-white leading-tight">
                 Comece a converter agora
               </h2>
@@ -39,8 +31,7 @@ export default function CTA() {
               </p>
             </div>
 
-            {/* Benefits */}
-            <div className="space-y-3">
+            <div className="space-y-3 flex flex-col items-center md:items-start">
               {benefits.map((benefit, index) => (
                 <div key={index} className="flex items-center gap-3">
                   <div className="w-5 h-5 rounded-full bg-white/20 flex items-center justify-center flex-shrink-0">
@@ -51,8 +42,7 @@ export default function CTA() {
               ))}
             </div>
 
-            {/* CTA Button */}
-            <a href="https://ia.artefinal.app">
+            <a href="https://artefinal.app">
               <Button
                 size="lg"
                 className="bg-white text-cyan-600 hover:bg-gray-100 font-semibold group w-full sm:w-auto"
@@ -62,41 +52,31 @@ export default function CTA() {
               </Button>
             </a>
 
-            {/* Trust text */}
-            <p className="text-sm text-white/70">
+            <p className="text-sm text-white/70 text-center md:text-left">
               ✓ Sem cartão de crédito • 20 créditos grátis • Cancelar a qualquer momento
             </p>
           </div>
 
-          {/* Right: Stats */}
           <div className="grid grid-cols-2 gap-6">
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
-              <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
-                50K+
-              </div>
+              <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">50K+</div>
               <p className="text-white/80 text-sm">Usuários ativos</p>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
-              <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
-                1M+
-              </div>
+              <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">1M+</div>
               <p className="text-white/80 text-sm">Conversões realizadas</p>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
-              <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
-                99.9%
-              </div>
+              <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">99.9%</div>
               <p className="text-white/80 text-sm">Uptime garantido</p>
             </div>
             <div className="bg-white/10 backdrop-blur-md rounded-xl p-6 border border-white/20">
-              <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">
-                24/7
-              </div>
+              <div className="text-3xl md:text-4xl font-display font-bold text-white mb-2">24/7</div>
               <p className="text-white/80 text-sm">Suporte disponível</p>
             </div>
           </div>
         </div>
       </div>
     </section>
-  );
+   );
 }
