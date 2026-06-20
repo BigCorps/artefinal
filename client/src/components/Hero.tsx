@@ -59,7 +59,7 @@ export default function Hero() {
           {/* Text - Appears on scroll */}
           <div className="space-y-6 pt-4">
             <p className="text-base text-gray-600 leading-relaxed">
-              Converta arquivos, crie sangrias, marcas de corte, transforme logos em SVG, crie modelos 3D, redimensione imagens, QR codes, código de barras, orçamentos e muito mais. Tudo que uma empresa gráfica, papelaria e estúdio de design precisa para editar arquivos rapidamente e enviar para produção. Interagindo com o assistente, você pode descobrir como ele pode ajudar a sua produção gráfica a ser mais ágil e prática.
+              Converta arquivos, crie sangrias, marcas de corte, transforme logos em SVG, crie modelos 3D, redimensione imagens, QR codes, código de barras, orçamentos e muito mais. Tudo que uma gráfica, papelaria ou estúdio de design precisa para editar arquivos rapidamente e enviar para produção.
             </p>
 
             {/* Trust indicators */}
