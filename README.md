@@ -185,7 +185,7 @@ adb install app-release.apk
 
 - **Landing Page**: https://www.artefinal.app
 - **App Web**: https://ia.artefinal.app
-- **Play Store**: [Será preenchido após publicação]
+- **Play Store**: 
 
 ## 📦 Dependências Principais
 
