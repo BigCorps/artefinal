@@ -1,5 +1,6 @@
 import { ArrowRight, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import WorkflowAnimation from './WorkflowAnimation';
 
 export default function Hero() {
   return (
@@ -77,19 +78,12 @@ export default function Hero() {
             </div>
           </div>
 
-          {/* Right: Visual */}
-          <div className="hidden md:flex items-center justify-center">
-            <div className="relative w-full max-w-md">
-              <div className="absolute inset-0 bg-gradient-to-br from-[#00AEEF] to-[#EC008C] rounded-2xl blur-2xl opacity-20 animate-pulse" />
-              <img
-                src="/arte.png"
-                alt="ArteFinal Hero"
-                className="relative rounded-2xl shadow-2xl w-full object-contain"
-              />
-            </div>
+          {/* Right: Visual Animation */}
+          <div className="flex items-center justify-center">
+            <WorkflowAnimation />
           </div>
         </div>
       </div>
     </section>
-   );
+  );
 }
