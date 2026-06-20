@@ -1,5 +1,4 @@
 # ArteFinal Landing Page
-
 ## 🎨 Design Philosophy
 
 **Modernismo Técnico Elegante**: Minimalismo com tipografia bold, paleta CMYK estratégica e espaçamento generoso. Foco em clareza funcional e confiança através de linhas limpas e hierarquia visual forte.
