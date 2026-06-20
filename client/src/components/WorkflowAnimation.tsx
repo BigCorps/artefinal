@@ -90,7 +90,7 @@ export default function WorkflowAnimation() {
           <div className="w-3 h-3 rounded-full bg-yellow-400" />
           <div className="w-3 h-3 rounded-full bg-green-400" />
         </div>
-        <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">ArteFinal.app Modal</span>
+        <span className="text-xs font-bold text-gray-400 uppercase tracking-widest">ArteFinal.app</span>
       </div>
 
       <div className="flex-1 p-8 flex flex-col items-center justify-center gap-8">
