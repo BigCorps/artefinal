@@ -164,7 +164,7 @@
                     <category android:name="android.intent.category.DEFAULT" />
                     <category android:name="android.intent.category.BROWSABLE"/>
                     <data android:scheme="https"
-                        android:host="https://ia.artefinal.app"/>
+                        android:host="ia.artefinal.app"/>
                 </intent-filter>
             
 
