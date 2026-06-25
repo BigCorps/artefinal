@@ -1,11 +1,14 @@
 [
   {
-    "relation": ["delegate_permission/common.handle_all_urls"],
+    "relation": [
+      "delegate_permission/common.handle_all_urls",
+      "delegate_permission/common.get_login_creds"
+    ],
     "target": {
       "namespace": "android_app",
       "package_name": "com.artefinal.app",
       "sha256_cert_fingerprints": [
-        "DA:46:AE:F5:3E:53:A7:58:F1:8D:DE:3C:92:8A:BF:7B:D1:30:35:6F:DC:BD:5A:7A:2D:A7:D9:6B:58:37:62:72"
+        "72:A9:CE:12:52:E5:13:00:56:4E:BD:81:C7:72:28:24:3E:1F:77:A9:36:CE:14:6F:93:0D:76:62:59:02:6D:E4"
       ]
     }
   }
