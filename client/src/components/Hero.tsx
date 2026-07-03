@@ -3,24 +3,29 @@ import { Button } from '@/components/ui/button';
 import WorkflowAnimation from './WorkflowAnimation';
 
 export default function Hero() {
+  const trustItems = [
+    'Sem cartão de crédito necessário',
+    '20 créditos grátis ao criar conta',
+    'Seus arquivos não saem do seu navegador',
+  ];
+
+  const description = `Arte-finalista com IA para gráficas, papelarias e estúdios de design. Adicione sangria e marcas de corte, crie adesivos com linha de corte die-cut, vetorize logos, remova fundos, gere modelos 3D, fotos 3×4, QR codes, códigos de barras, orçamentos e muito mais — tudo no navegador, sem instalar nada.`;
+
   return (
     <section className="relative overflow-hidden bg-white pt-20 pb-32 md:pt-32 md:pb-48">
-      {/* Background gradient decoration */}
       <div className="absolute inset-0 overflow-hidden">
         <div className="absolute top-0 right-0 w-96 h-96 bg-gradient-to-br from-[#00AEEF] to-[#EC008C] rounded-full blur-3xl opacity-20" />
         <div className="absolute bottom-0 left-0 w-80 h-80 bg-gradient-to-tr from-[#00AEEF] to-[#EC008C] rounded-full blur-3xl opacity-15" />
       </div>
 
       <div className="container relative z-10">
-        {/* Mobile Layout: Prioritize Animation */}
+        {/* Mobile */}
         <div className="md:hidden flex flex-col items-center text-center gap-8">
-          {/* Title */}
           <div className="space-y-4 flex flex-col items-center">
             <div className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-50 rounded-full border border-cyan-200">
               <Sparkles size={16} className="text-cyan-600" />
               <span className="text-sm font-semibold text-cyan-700">powered by minhAi</span>
             </div>
-
             <h1 className="text-4xl font-display font-bold text-gray-900 leading-tight">
               Seu{' '}
               <span className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] bg-clip-text text-transparent">
@@ -29,14 +34,12 @@ export default function Hero() {
             </h1>
           </div>
 
-          {/* Animation - Featured on Mobile */}
           <div className="w-full flex justify-center">
             <WorkflowAnimation />
           </div>
 
-          {/* CTAs */}
           <div className="flex flex-col gap-3 w-full">
-            <a href="https://artefinal.app" className="w-full">
+            <a href="https://ia.artefinal.app" className="w-full">
               <Button
                 size="lg"
                 className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] hover:opacity-90 text-white font-semibold group w-full"
@@ -45,7 +48,7 @@ export default function Hero() {
                 <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
               </Button>
             </a>
-            <a href="https://artefinal.app/arte/login" className="w-full">
+            <a href="https://ia.artefinal.app/arte/login" className="w-full">
               <Button
                 size="lg"
                 variant="outline"
@@ -56,39 +59,23 @@ export default function Hero() {
             </a>
           </div>
 
-          {/* Text - Appears on scroll */}
           <div className="space-y-6 pt-4">
-            <p className="text-base text-gray-600 leading-relaxed">
-              Converta arquivos, crie sangrias, marcas de corte, transforme logos em SVG, crie modelos 3D, redimensione imagens, QR codes, código de barras, orçamentos e muito mais. Tudo que uma gráfica, papelaria ou estúdio de design precisa para editar arquivos rapidamente e enviar para produção.
-            </p>
-
-            {/* Trust indicators */}
+            <p className="text-base text-gray-600 leading-relaxed">{description}</p>
             <div className="flex flex-col items-center gap-3 text-sm text-gray-600">
-              <div className="flex items-center gap-2">
-                <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
-                  <span className="text-green-700 font-bold">✓</span>
+              {trustItems.map((item) => (
+                <div key={item} className="flex items-center gap-2">
+                  <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                    <span className="text-green-700 font-bold text-xs">✓</span>
+                  </div>
+                  {item}
                 </div>
-                Sem cartão de crédito necessário
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
-                  <span className="text-green-700 font-bold">✓</span>
-                </div>
-                20 créditos grátis para começar
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
-                  <span className="text-green-700 font-bold">✓</span>
-                </div>
-                Conversão instantânea de arquivos
-              </div>
+              ))}
             </div>
           </div>
         </div>
 
-        {/* Desktop Layout: Side by Side */}
+        {/* Desktop */}
         <div className="hidden md:grid md:grid-cols-2 gap-12 items-center">
-          {/* Left: Content */}
           <div className="space-y-8 flex flex-col items-start text-left">
             <div className="space-y-4 flex flex-col items-start">
               <div className="inline-flex items-center gap-2 px-4 py-2 bg-cyan-50 rounded-full border border-cyan-200">
@@ -103,14 +90,11 @@ export default function Hero() {
                 </span>
               </h1>
 
-              <p className="text-lg text-gray-600 leading-relaxed">
-                Converta arquivos, crie sangrias, marcas de corte, transforme logos em SVG, crie modelos 3D, redimensione imagens, QR codes, código de barras, orçamentos e muito mais. Tudo que uma empresa gráfica, papelaria e estúdio de design precisa para editar arquivos rapidamente e enviar para produção. Interagindo com o assistente, você pode descobrir como ele pode ajudar a sua produção gráfica a ser mais ágil e prática.
-              </p>
+              <p className="text-lg text-gray-600 leading-relaxed">{description}</p>
             </div>
 
-            {/* CTAs */}
             <div className="flex flex-col sm:flex-row gap-4 pt-4">
-              <a href="https://artefinal.app">
+              <a href="https://ia.artefinal.app">
                 <Button
                   size="lg"
                   className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] hover:opacity-90 text-white font-semibold group w-full sm:w-auto"
@@ -119,7 +103,7 @@ export default function Hero() {
                   <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
-              <a href="https://artefinal.app/arte/login">
+              <a href="https://ia.artefinal.app/arte/login">
                 <Button
                   size="lg"
                   variant="outline"
@@ -130,30 +114,18 @@ export default function Hero() {
               </a>
             </div>
 
-            {/* Trust indicators */}
             <div className="flex flex-col items-start gap-3 pt-4 text-sm text-gray-600">
-              <div className="flex items-center gap-2">
-                <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
-                  <span className="text-green-700 font-bold">✓</span>
+              {trustItems.map((item) => (
+                <div key={item} className="flex items-center gap-2">
+                  <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center flex-shrink-0">
+                    <span className="text-green-700 font-bold text-xs">✓</span>
+                  </div>
+                  {item}
                 </div>
-                Sem cartão de crédito necessário
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
-                  <span className="text-green-700 font-bold">✓</span>
-                </div>
-                20 créditos grátis para começar
-              </div>
-              <div className="flex items-center gap-2">
-                <div className="w-5 h-5 rounded-full bg-green-100 flex items-center justify-center">
-                  <span className="text-green-700 font-bold">✓</span>
-                </div>
-                Conversão instantânea de arquivos
-              </div>
+              ))}
             </div>
           </div>
 
-          {/* Right: Visual Animation */}
           <div className="flex items-center justify-center">
             <WorkflowAnimation />
           </div>

@@ -1,0 +1,45 @@
+# ArteFinal
+
+> Arte-finalista com IA para gráficas, papelarias e estúdios de design.
+> URL: https://artefinal.app
+> Desenvolvido por BigCorps Tecnologia LTDA — powered by minhAi.app
+
+## O que é
+
+ArteFinal é uma plataforma web (e app Android) com 15 ferramentas de produção gráfica que rodam diretamente no navegador, sem instalação. Os arquivos do usuário não são enviados para servidores — o processamento acontece localmente no navegador (client-side) sempre que possível.
+
+## Ferramentas disponíveis
+
+- **Margem e Sangria** — adiciona sangria configurável e marcas de corte a qualquer imagem ou PDF, converte cores para CMYK e exporta em PDF X-1a (padrão profissional de impressão). Suporta frente e verso. (5 créditos)
+- **Adesivo com Recorte** — cria adesivos com linha de corte die-cut em curvas Bézier reais (não poligonal). Formas automáticas (silhueta), circulares, quadradas ou arredondadas. Exporta em PDF com 2 páginas (arte + corte) e/ou EPS. (5 créditos)
+- **Folha de Recorte** — multiplica o adesivo em uma folha A4, A3 ou tamanho personalizado, com grade e espaçamento calculados automaticamente. PDF com arte e corte separados. (10 créditos)
+- **Remover Fundo** — remove o fundo de qualquer imagem com IA (client-side via WASM). Preview gratuito em baixa resolução; download em alta resolução (PNG transparente) após confirmação. (2 créditos)
+- **Vetorizar Imagem** — converte PNG/JPEG em SVG ou PDF vetorial por traçado de contorno (Potrace). Ideal para gravação a laser, plotagem e ampliação sem perda de qualidade. (1 crédito)
+- **Imagem para 3D** — transforma logos com fundo transparente em sólidos extrudados, ou fotos em relevo (lithophane), exportando em .STL e .3MF para impressão 3D. Preview 3D interativo gratuito. (2 créditos)
+- **Editar Imagem** — recorte com aspect ratio livre, rotação, espelhamento e ajuste de brilho, contraste e saturação. Resolução da imagem original preservada na exportação. (1 crédito)
+- **Duplicar Imagem** — monta grids de cópias da mesma arte em folha A4, ideal para etiquetas e cartões. (2 créditos)
+- **Fotos para Documentos** — gera folha de fotos 3×4, 5×7 ou 2×2 com remoção de fundo automática e layout configurável. PDF pronto para imprimir. (Grátis)
+- **Polaroids para Impressão** — monta grid de fotos no estilo polaroid em A4 ou A3. Permite reposicionar cada foto dentro do quadro antes de gerar o PDF. (Grátis)
+- **Juntar / Dividir PDFs** — junta múltiplos PDFs em um só (ordem configurável por arraste) ou divide um PDF em páginas separadas entregues em .zip. (Grátis)
+- **Converter Arquivos** — converte imagens entre JPG, PNG, WebP e PDF. (Grátis)
+- **Gerar QR Code** — cria QR codes com cor e logo personalizados. Download em PNG de alta resolução. (1 crédito)
+- **Código de Barras** — gera EAN-13, EAN-8, Code 128 e outros padrões. Configuração de cor e tamanho. (1 crédito)
+- **Orçamento em PDF** — monta orçamentos com logo, itens, totais e cor personalizada. Exporta em PDF pronto para envio ao cliente. (2 créditos)
+
+## Modelo de uso
+
+- Cadastro gratuito com 20 créditos iniciais
+- Funções marcadas como "Grátis" não consomem créditos
+- Créditos adicionais podem ser adquiridos dentro da plataforma
+- Disponível em navegador desktop e mobile, e no Google Play (PWA/TWA)
+
+## Público-alvo
+
+Gráficas, papelarias, estúdios de design, freelancers de design gráfico, microempreendedores que precisam preparar arquivos para impressão profissional.
+
+## Tecnologia
+
+- Processamento client-side (navegador) via WebAssembly e Canvas API
+- Saída em padrões gráficos profissionais: PDF X-1a, CMYK, EPS, SVG, STL, 3MF
+- Desenvolvido em Next.js + Supabase, hospedado na Vercel
+- Inteligência artificial via minhAi.app (BigCorps Tecnologia LTDA)

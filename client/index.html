@@ -2,45 +2,95 @@
 <html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
 
-    <title>ArteFinal - Seu arte-finalista com IA</title>
-    <meta name="description" content="Seu arte-finalista com IA." />
+    <!-- ── Título e descrição ── -->
+    <title>ArteFinal — Arte-finalista com IA para gráficas e designers</title>
+    <meta name="description" content="Plataforma completa de arte-final com IA: sangria e marcas de corte, adesivo com linha de corte die-cut, vetorização, remoção de fundo, imagem para 3D, fotos 3×4, QR code, código de barras, orçamento em PDF e muito mais. Tudo no navegador, sem instalar nada." />
+    <meta name="keywords" content="arte final, arte-final, gráfica, sangria, marcas de corte, die cut, adesivo, vetorizar imagem, remover fundo, imagem 3D, lithophane, fotos 3x4, foto documento, QR code, código de barras, orçamento PDF, PDF X-1a, CMYK, impressão, designer, papelaria" />
+    <meta name="author" content="ArteFinal — BigCorps Tecnologia LTDA" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://artefinal.app" />
 
-    <!-- Favicon principal -->
+    <!-- ── Open Graph (WhatsApp, Facebook, LinkedIn) ── -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://artefinal.app" />
+    <meta property="og:site_name" content="ArteFinal" />
+    <meta property="og:title" content="ArteFinal — Arte-finalista com IA para gráficas e designers" />
+    <meta property="og:description" content="Sangria, corte, vetorização, remoção de fundo, modelos 3D, fotos para documento, QR code e muito mais. Pronto para gráfica, direto do navegador." />
+    <meta property="og:image" content="https://artefinal.app/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:locale" content="pt_BR" />
+
+    <!-- ── Twitter Card ── -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="ArteFinal — Arte-finalista com IA" />
+    <meta name="twitter:description" content="15 ferramentas de produção gráfica no navegador. Sangria, die-cut, vetorização, 3D, fotos 3×4 e muito mais." />
+    <meta name="twitter:image" content="https://artefinal.app/og-image.png" />
+
+    <!-- ── Structured Data (Schema.org) ── -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "SoftwareApplication",
+      "name": "ArteFinal",
+      "url": "https://artefinal.app",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web, Android",
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "BRL",
+        "description": "Plano gratuito com 20 créditos iniciais"
+      },
+      "description": "Plataforma de arte-final com IA para gráficas, papelarias e designers. Ferramentas para sangria, marcas de corte, adesivo die-cut, vetorização, remoção de fundo, imagem para 3D, fotos 3×4, QR code, código de barras e orçamento em PDF.",
+      "publisher": {
+        "@type": "Organization",
+        "name": "BigCorps Tecnologia LTDA",
+        "url": "https://minhai.app"
+      },
+      "inLanguage": "pt-BR",
+      "featureList": [
+        "Margem e Sangria com PDF X-1a",
+        "Adesivo com Recorte die-cut (PDF e EPS)",
+        "Folha de Recorte A4/A3",
+        "Remover Fundo com IA",
+        "Vetorizar Imagem para SVG/PDF",
+        "Imagem para 3D (STL/3MF)",
+        "Editar Imagem",
+        "Duplicar Imagem",
+        "Fotos para Documentos (3×4, 5×7, 2×2)",
+        "Polaroids para Impressão",
+        "Juntar e Dividir PDFs",
+        "Converter Arquivos",
+        "Gerar QR Code",
+        "Código de Barras",
+        "Orçamento em PDF"
+      ]
+    }
+    </script>
+
+    <!-- ── Favicons ── -->
     <link rel="icon" href="/favicon.ico" sizes="any" />
-
-    <!-- Favicons PNG -->
     <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
     <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
     <link rel="icon" type="image/png" href="/favicon.png" />
-
-    <!-- Ícone Apple / iPhone -->
     <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
 
-    <!-- Manifest PWA / Bubblewrap -->
+    <!-- ── PWA / Manifest ── -->
     <link rel="manifest" href="/manifest.json" />
-
-    <!-- Cores do navegador / PWA -->
     <meta name="theme-color" content="#00AEEF" />
     <meta name="background-color" content="#ffffff" />
     <meta name="msapplication-TileColor" content="#00AEEF" />
-
-    <!-- Configurações Apple PWA -->
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="apple-mobile-web-app-title" content="ArteFinal" />
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
 
-    <!-- Fontes -->
+    <!-- ── Fontes ── -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
   </head>
 
   <body>
