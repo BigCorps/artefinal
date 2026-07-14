@@ -15,7 +15,7 @@ export default function CTA() {
     { value: '15', label: 'ferramentas de produção gráfica' },
     { value: 'PDF X-1a', label: 'padrão profissional de impressão' },
     { value: 'EPS + PDF', label: 'formatos aceitos pelas gráficas' },
-    { value: 'Grátis', label: 'para converter, juntar e dividir PDFs' },
+    { value: 'Grátis', label: 'para editar, converter, e muito mais' },
   ];
 
   return (
@@ -34,7 +34,7 @@ export default function CTA() {
                 Pronto para produção.<br />Direto do navegador.
               </h2>
               <p className="text-lg text-white/90 leading-relaxed">
-                ArteFinal reúne as ferramentas que designers, gráficas e papelarias usam no dia a dia — sem instalar nada, sem depender de software caro, sem enviar arquivos para servidores de terceiros.
+                ArteFinal reúne as ferramentas que designers, gráficas e papelarias usam no dia a dia — PSD, PDF, PNG, EPS, tudo sem instalar nada, sem depender de software caro, sem enviar arquivos para servidores de terceiros.
               </p>
             </div>
 
