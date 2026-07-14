@@ -8,7 +8,7 @@ const features = [
   {
     id: 'editar',
     title: 'Editar Imagem',
-    description: '2 modos de edição de imagem: 1 profissional de edição completa de PSD, outro mais simples com recorte com aspect ratio livre, rotação, espelhamento e ajuste de brilho, contraste e saturação.',
+    description: '2 modos de edição de imagem: 1 profissional de edição completa de vetor e imagem (PSD, AI, SVG) - outro mais simples com recorte com aspect ratio livre, rotação, espelhamento e ajuste de brilho, contraste e saturação.',
     icon: ImageIcon,
     credits: 'Grátis',
   },
