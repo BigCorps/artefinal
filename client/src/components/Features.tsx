@@ -6,6 +6,13 @@ import {
 
 const features = [
   {
+    id: 'editar',
+    title: 'Editar Imagem',
+    description: '2 modos de edição de imagem: 1 profissional de edição completa de PSD, outro mais simples com recorte com aspect ratio livre, rotação, espelhamento e ajuste de brilho, contraste e saturação.',
+    icon: ImageIcon,
+    credits: 'Grátis',
+  },
+  {
     id: 'sangria',
     title: 'Margem e Sangria',
     description: 'Adiciona sangria e marcas de corte ao PDF, converte cores para CMYK e gera o arquivo pronto para a gráfica. Frente e verso. Saída X-1a.',
@@ -46,13 +53,6 @@ const features = [
     description: 'Transforma logos (extrusão) ou fotos (relevo / lithophane) em modelos 3D prontos para impressora 3D. Exporta em .STL e .3MF. Preview 3D interativo gratuito.',
     icon: Box,
     credits: '2 créditos',
-  },
-  {
-    id: 'editar',
-    title: 'Editar Imagem',
-    description: 'Recorte com aspect ratio livre, rotação, espelhamento e ajuste de brilho, contraste e saturação. Resolução preservada na exportação.',
-    icon: ImageIcon,
-    credits: '1 crédito',
   },
   {
     id: 'duplicar',
