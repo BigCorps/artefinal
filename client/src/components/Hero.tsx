@@ -9,7 +9,7 @@ export default function Hero() {
     'Seus arquivos não saem do seu navegador',
   ];
 
-  const description = `Arte-finalista com IA para gráficas, papelarias e estúdios de design. Adicione sangria e marcas de corte, crie adesivos com linha de corte die-cut, vetorize logos, remova fundos, gere modelos 3D, fotos 3×4, QR codes, códigos de barras, orçamentos e muito mais — tudo no navegador, sem instalar nada.`;
+  const description = `Arte-finalista com IA para gráficas, papelarias e estúdios de design. Edite PSDs, adicione sangria e marcas de corte, crie adesivos com linha de corte, vetorize logos, remova fundos, gere modelos 3D, fotos 3×4, QR codes, códigos de barras, orçamentos e muito mais — tudo no navegador, sem instalar nada.`;
 
   return (
     <section className="relative overflow-hidden bg-white pt-20 pb-32 md:pt-32 md:pb-48">
