@@ -59,7 +59,7 @@ export default function CTA() {
                   <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
                 </Button>
               </a>
-              <a href="https://play.google.com/store/apps/details?id=app.artefinal.ia" target="_blank" rel="noopener noreferrer">
+              <a href="https://play.google.com/store/apps/details?id=com.artefinal.app" target="_blank" rel="noopener noreferrer">
                 <Button
                   size="lg"
                   variant="outline"
