@@ -4,10 +4,10 @@
 **Modernismo Técnico Elegante**: Minimalismo com tipografia bold, paleta CMYK estratégica e espaçamento generoso. Foco em clareza funcional e confiança através de linhas limpas e hierarquia visual forte.
 
 ### Paleta CMYK
-- **Cyan**: #00AEEF (Confiança, tecnologia)
-- **Magenta**: #EC008C (Criatividade, energia)
-- **Yellow**: #FFD500 (Otimismo, destaque)
-- **Key (Preto)**: #1A1A1A (Autoridade, profissionalismo)
+- **Cyan**: #00AEEF
+- **Magenta**: #EC008C
+- **Yellow**: #FFD500
+- **Key (Preto)**: #1A1A1A
 
 ### Tipografia
 - **Display**: Poppins (Headlines, CTAs)
