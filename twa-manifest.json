@@ -21,8 +21,8 @@
     "path": "/workspaces/artefinal/android.keystore",
     "alias": "android"
   },
-  "appVersionName": "2",
-  "appVersionCode": 2,
+  "appVersionName": "4",
+  "appVersionCode": 4,
   "shortcuts": [
     {
       "name": "Começar Grátis",
@@ -53,5 +53,5 @@
   "fileHandlers": [],
   "launchHandlerClientMode": "",
   "displayOverride": [],
-  "appVersion": "2"
+  "appVersion": "4"
 }
