@@ -45,19 +45,19 @@ export default function Hero() {
                 className="bg-gradient-to-r from-[#00AEEF] to-[#EC008C] hover:opacity-90 text-white font-semibold group w-full"
               >
                 Começar Grátis
-                <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
-              </Button>
-            </a>
-            <a href="https://ia.artefinal.app/arte/login" className="w-full">
-              <Button
-                size="lg"
-                variant="outline"
-                className="border-gray-300 text-gray-700 hover:bg-gray-50 font-semibold w-full"
-              >
-                Entrar
-              </Button>
-            </a>
-          </div>
+                  <ArrowRight size={18} className="ml-2 group-hover:translate-x-1 transition-transform" />
+                </Button>
+              </a>
+              <a href="https://play.google.com/store/apps/details?id=com.artefinal.app" target="_blank" rel="noopener noreferrer">
+                <Button
+                  size="lg"
+                  variant="outline"
+                  className="border-white/40 text-white hover:bg-white/10 font-semibold w-full sm:w-auto"
+                >
+                  Ver no Google Play
+                </Button>
+              </a>
+            </div>
 
           <div className="space-y-6 pt-4">
             <p className="text-base text-gray-600 leading-relaxed">{description}</p>
