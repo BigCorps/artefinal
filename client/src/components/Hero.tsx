@@ -52,7 +52,7 @@ export default function Hero() {
                 <Button
                   size="lg"
                   variant="outline"
-                  className="border-white/40 text-white hover:bg-white/10 font-semibold w-full sm:w-auto"
+                  className="border-gray/40 text-gray hover:bg-gray/10 font-semibold w-full sm:w-auto"
                 >
                   Ver no Google Play
                 </Button>
