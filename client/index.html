@@ -10,11 +10,11 @@
     <meta name="keywords" content="arte final, arte-final, gráfica, sangria, marcas de corte, die cut, adesivo, vetorizar imagem, remover fundo, imagem 3D, lithophane, fotos 3x4, foto documento, QR code, código de barras, orçamento PDF, PDF X-1a, CMYK, impressão, designer, papelaria" />
     <meta name="author" content="ArteFinal — BigCorps Tecnologia LTDA" />
     <meta name="robots" content="index, follow" />
-    <link rel="canonical" href="https://artefinal.app" />
+    <link rel="canonical" href="https://artefinal.app/" />
 
     <!-- ── Open Graph (WhatsApp, Facebook, LinkedIn) ── -->
     <meta property="og:type" content="website" />
-    <meta property="og:url" content="https://artefinal.app" />
+    <meta property="og:url" content="https://artefinal.app/" />
     <meta property="og:site_name" content="ArteFinal" />
     <meta property="og:title" content="ArteFinal — Arte-finalista com IA para gráficas e designers" />
     <meta property="og:description" content="Sangria, corte, vetorização, remoção de fundo, modelos 3D, fotos para documento, QR code e muito mais. Pronto para gráfica, direto do navegador." />
@@ -33,40 +33,129 @@
     <script type="application/ld+json">
     {
       "@context": "https://schema.org",
-      "@type": "SoftwareApplication",
-      "name": "ArteFinal",
-      "url": "https://artefinal.app",
-      "applicationCategory": "DesignApplication",
-      "operatingSystem": "Web, Android",
-      "offers": {
-        "@type": "Offer",
-        "price": "0",
-        "priceCurrency": "BRL",
-        "description": "Plano gratuito com 20 créditos iniciais"
-      },
-      "description": "Plataforma de arte-final com IA para gráficas, papelarias e designers. Ferramentas para sangria, marcas de corte, adesivo die-cut, vetorização, remoção de fundo, imagem para 3D, fotos 3×4, QR code, código de barras e orçamento em PDF.",
-      "publisher": {
-        "@type": "Organization",
-        "name": "BigCorps Tecnologia LTDA",
-        "url": "https://minhai.app"
-      },
-      "inLanguage": "pt-BR",
-      "featureList": [
-        "Margem e Sangria com PDF X-1a",
-        "Adesivo com Recorte die-cut (PDF e EPS)",
-        "Folha de Recorte A4/A3",
-        "Remover Fundo com IA",
-        "Vetorizar Imagem para SVG/PDF",
-        "Imagem para 3D (STL/3MF)",
-        "Editar Imagem",
-        "Duplicar Imagem",
-        "Fotos para Documentos (3×4, 5×7, 2×2)",
-        "Polaroids para Impressão",
-        "Juntar e Dividir PDFs",
-        "Converter Arquivos",
-        "Gerar QR Code",
-        "Código de Barras",
-        "Orçamento em PDF"
+      "@graph": [
+        {
+          "@type": "SoftwareApplication",
+          "@id": "https://artefinal.app/#software",
+          "name": "ArteFinal",
+          "alternateName": "ArteFinal.app",
+          "url": "https://artefinal.app",
+          "applicationCategory": "DesignApplication",
+          "operatingSystem": "Web, Android",
+          "inLanguage": "pt-BR",
+          "isPartOf": { "@id": "https://www.minhai.app/#software" },
+          "creator": { "@id": "https://bigcorps.com.br/#organization" },
+          "publisher": { "@id": "https://bigcorps.com.br/#organization" },
+          "offers": {
+            "@type": "Offer",
+            "price": "0",
+            "priceCurrency": "BRL",
+            "description": "Plano gratuito com 20 créditos iniciais. Preview grátis e ilimitado: paga-se apenas o arquivo final.",
+            "availability": "https://schema.org/InStock"
+          },
+          "description": "Plataforma de arte-final com IA para gráficas, papelarias e designers. Ferramentas para sangria, marcas de corte, adesivo die-cut, vetorização, remoção de fundo, imagem para 3D, fotos 3×4, QR code, código de barras e orçamento em PDF.",
+          "featureList": [
+            "Margem e Sangria com PDF X-1a",
+            "Adesivo com Recorte die-cut (PDF e EPS)",
+            "Folha de Recorte A4/A3",
+            "Remover Fundo com IA",
+            "Vetorizar Imagem para SVG/PDF",
+            "Imagem para 3D (STL/3MF)",
+            "Editar Imagem",
+            "Duplicar Imagem",
+            "Fotos para Documentos (3×4, 5×7, 2×2)",
+            "Polaroids para Impressão",
+            "Juntar e Dividir PDFs",
+            "Converter Arquivos",
+            "Gerar QR Code",
+            "Código de Barras",
+            "Orçamento em PDF"
+          ],
+          "audience": {
+            "@type": "BusinessAudience",
+            "audienceType": ["Gráfica rápida", "Papelaria", "Designer gráfico", "Estúdio de design", "Comunicação visual"]
+          }
+        },
+        {
+          "@type": "FAQPage",
+          "@id": "https://artefinal.app/#faq",
+          "mainEntity": [
+            {
+              "@type": "Question",
+              "name": "O que é o ArteFinal?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "O ArteFinal é uma plataforma web com 15 ferramentas de produção gráfica que rodam no navegador, sem instalação: sangria e marcas de corte, adesivo com recorte die-cut, vetorização, remoção de fundo, imagem para 3D, fotos para documento, QR code, código de barras e orçamento em PDF."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Preciso pagar para testar?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Não. O cadastro dá 20 créditos iniciais e o preview é gratuito e ilimitado — paga-se apenas o arquivo final."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "O arquivo sai pronto para a gráfica?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sim. O fechamento gera PDF/X-1a em CMYK com sangria e marcas de corte, o padrão aceito pelas gráficas — sem surpresa de conversão de cor na hora da impressão."
+              }
+            },
+            {
+              "@type": "Question",
+              "name": "Meus arquivos são enviados para algum servidor?",
+              "acceptedAnswer": {
+                "@type": "Answer",
+                "text": "Sempre que possível o processamento acontece no próprio navegador, do lado do usuário, sem subir o arquivo para servidores."
+              }
+            }
+          ]
+        },
+        {
+          "@type": "Organization",
+          "@id": "https://bigcorps.com.br/#organization",
+          "name": "BigCorps Tecnologia",
+          "legalName": "BigCorps Tecnologia Ltda",
+          "url": "https://bigcorps.com.br",
+          "taxID": "14.282.244/0001-19",
+          "logo": {
+            "@type": "ImageObject",
+            "url": "https://bigcorps.com.br/logo.png"
+          },
+          "contactPoint": [
+            {
+              "@type": "ContactPoint",
+              "telephone": "+55-11-92682-8418",
+              "contactType": "customer service",
+              "availableLanguage": "Portuguese",
+              "areaServed": "BR"
+            },
+            {
+              "@type": "ContactPoint",
+              "email": "contato@bigcorps.com.br",
+              "contactType": "customer support"
+            }
+          ],
+          "sameAs": [
+            "https://www.instagram.com/bigcorps",
+            "https://minhai.app",
+            "https://conviteia.com",
+            "https://min.ia.br",
+            "https://pix.wiki",
+            "https://consulta.tec.br"
+          ]
+        },
+        {
+          "@type": "WebSite",
+          "@id": "https://artefinal.app/#website",
+          "url": "https://artefinal.app",
+          "name": "ArteFinal",
+          "inLanguage": "pt-BR",
+          "publisher": { "@id": "https://bigcorps.com.br/#organization" }
+        }
       ]
     }
     </script>
