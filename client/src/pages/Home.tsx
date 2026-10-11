@@ -3,6 +3,7 @@ import Hero from '@/components/Hero';
 import Features from '@/components/Features';
 import CTA from '@/components/CTA';
 import Footer from '@/components/Footer';
+import SupportLauncher from '@/components/SupportLauncher';
 
 /**
  * Home Page
@@ -20,6 +21,7 @@ export default function Home() {
         <CTA />
       </main>
       <Footer />
+      <SupportLauncher />
     </div>
   );
 }
