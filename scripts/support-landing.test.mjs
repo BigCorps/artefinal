@@ -6,7 +6,7 @@ test('ArteFinal support is isolated to the public landing and opens its first-pa
   const home = read('client/src/pages/Home.tsx');
   const launcher = read('client/src/components/SupportLauncher.tsx');
   assert.match(home, /<SupportLauncher \/>/);
-  assert.match(launcher, /href="https://www\.minhai\.app/artefinal/suporte"/);
+  assert.ok(launcher.includes('href="https://www.minhai.app/artefinal/suporte"'));
   assert.match(launcher, /target="_blank"/);
   assert.match(launcher, /rel="noopener noreferrer"/);
   assert.match(launcher, /MessageCircle/);
