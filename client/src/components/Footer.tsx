@@ -13,6 +13,7 @@ export default function Footer() {
           <p className="text-sm font-medium">
             © {currentYear} ArteFinal. Todos os direitos reservados.
           </p>
+          <a className="text-sm font-semibold hover:underline" href="/artigos">Guias de arte-final</a>
           <span className="hidden md:inline text-gray-300">|</span>
           <p className="text-sm font-medium">
             Powered by{' '}
