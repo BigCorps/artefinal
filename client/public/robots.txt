@@ -31,4 +31,4 @@ User-agent: PetalBot
 User-agent: DataForSeoBot
 Disallow: /
 
-Sitemap: https://artefinal.app/sitemap.xml
+Sitemap: https://www.artefinal.app/sitemap.xml
