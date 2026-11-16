@@ -57,3 +57,5 @@ min.IA, Convite IA, Pix Wiki e ConsultaTec são produtos da mesma empresa, a Big
 
 - Artigos: https://www.artefinal.app/artigos
 - Sangria e marcas de corte: https://www.artefinal.app/artigos/como-preparar-arquivo-para-impressao-com-sangria-e-marcas-de-corte
+
+- Vetorização para impressão e recorte: https://www.artefinal.app/artigos/como-vetorizar-imagem-para-impressao-e-recorte
