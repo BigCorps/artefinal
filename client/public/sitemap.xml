@@ -10,7 +10,7 @@
   </url>
   <url>
     <loc>https://www.artefinal.app/artigos</loc>
-    <lastmod>2026-11-13</lastmod>
+    <lastmod>2026-11-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.75</priority>
   </url>
@@ -20,4 +20,5 @@
     <changefreq>monthly</changefreq>
     <priority>0.72</priority>
   </url>
+  <url><loc>https://www.artefinal.app/artigos/como-vetorizar-imagem-para-impressao-e-recorte</loc><lastmod>2026-11-16</lastmod><changefreq>monthly</changefreq><priority>0.72</priority></url>
 </urlset>
